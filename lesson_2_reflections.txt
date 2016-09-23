@@ -3,3 +3,18 @@ When you initialize a repository a new git file is created where we can save ver
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
  We need staging area to add files to the repository and make sure that they are logically right at this stage.
+
+ How can you use the staging area to make sure you have one commit per logical change?
+  we should add the logical change we want to commit by "git add" command. Once we do this we can make sure the changes we need by typing "git diff --staged" command once we are sure with the change we just need to use "git commit command"
+
+  What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+  Branches would be helpful while trying out new experimental features without the risk of disturbing code in the master branch.When we do this we will keep the main code seperate from the experimental code and even we we devlop this experimental features we can improve our master code without meddling with the features. Once experimental features are ready we can add them or merge them  with the main code.This will help us in keeping an organised history.
+
+  How do the diagrams help you visualize the branch structure?
+   Diagrams points out the flow of code, changes comitted and new branch added.This helps us to visulazize the entire structure olf the code.
+
+   What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+    When we merge two branches together we get all the commits of the branch into master.The diagram helps us trace back our previous comits
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Git automatic merging makes tasks easier by merging the commits automatically but sometimes you want to edit a pert of function of commits containing two similar functions and choosing the better one manually is a better option.
