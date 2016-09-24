@@ -1,0 +1,2 @@
+  When would you want to create a remote repository rather than keeping all your files local?
+   Remote repository would be helpful while you want to save your files on a remote computer accessible at all times from all computers rathen than being available only locally.
